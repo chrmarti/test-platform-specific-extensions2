@@ -3,7 +3,11 @@
 	"displayName": "test-platform-specific-extensions",
 	"description": "",
 	"publisher": "chrmarti",
-	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chrmarti/test-platform-specific-extensions"
+	},
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
