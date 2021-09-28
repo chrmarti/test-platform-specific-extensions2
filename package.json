@@ -1,11 +1,11 @@
 {
-	"name": "test-platform-specific-extensions",
-	"displayName": "test-platform-specific-extensions",
+	"name": "test-platform-specific-extensions2",
+	"displayName": "test-platform-specific-extensions2",
 	"description": "",
 	"publisher": "chrmarti",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/chrmarti/test-platform-specific-extensions"
+		"url": "https://github.com/chrmarti/test-platform-specific-extensions2"
 	},
 	"version": "0.0.3",
 	"engines": {
@@ -15,13 +15,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:test-platform-specific-extensions.helloWorld"
+		"onCommand:test-platform-specific-extensions2.helloWorld"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "test-platform-specific-extensions.helloWorld",
+				"command": "test-platform-specific-extensions2.helloWorld",
 				"title": "Hello World"
 			}
 		]
