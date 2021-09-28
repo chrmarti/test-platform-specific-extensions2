@@ -2,9 +2,10 @@
 	"name": "test-platform-specific-extensions",
 	"displayName": "test-platform-specific-extensions",
 	"description": "",
+	"publisher": "chrmarti",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.60.0"
+		"vscode": "^1.61.0"
 	},
 	"categories": [
 		"Other"
