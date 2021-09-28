@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('test-platform-specific-extensions.helloWorld', () => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello alpine-x64!');
+		vscode.window.showInformationMessage('Hello linux-x64!');
 	});
 
 	context.subscriptions.push(disposable);
